@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment | Raees
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> TechCrunch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Join</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="raw">
+            <div class="col-2">
+                <p></p>
+            </div>
+            <div class="col-8" id="text">
+                 <br> <br> <br><h6> <span style="font-size: larger; color: rgb(208, 255, 0);">Ambushed by AngularJS: Uncovering a
+                        Hidden CSP Bypass in Piwik PRO </span>
+                       <p> In the dynamic realm of web security, Content Security Policy (CSP) plays a pivotal role in
+                        safeguarding web applications against a range of attacks. However, even the most robust security
+                        measures can be susceptible to unforeseen vulnerabilities. In a recent discovery, a hidden CSP
+                        bypass was unearthed in Piwik PRO, a popular web analytics platform, involving the unsuspecting
+                        accomplice - AngularJS. In this blog post, we'll delve into the intricacies of this unexpected
+                        ambush, exploring the details of the CSP bypass and the implications for web security.  </p> <br><br>
+
+                        <span style="font-size: larger; color: rgb(208, 255, 0);">     Unraveling the CSP Bypass </span
+                        What is CSP?
+                        <p>  Content Security Policy (CSP) is a security standard that helps prevent various types of
+                        attacks, including Cross-Site Scripting (XSS) and data injection attacks. CSP works by defining
+                        and enforcing a set of rules that dictate the types of content that a web browser is allowed to
+                        load and execute.  </p> <br><br>
+
+                        <span style="font-size: larger; color: rgb(208, 255, 0);">    The AngularJS Connection  </span>
+                        <p>   AngularJS, a widely used JavaScript framework, is known for its two-way data binding and dynamic
+                        features. However, in the context of CSP, the framework can inadvertently become a stealthy
+                        accomplice in bypassing security measures.  </p><br><br>
+
+                        <span style="font-size: larger; color: rgb(208, 255, 0);">     The Ambush in Piwik PRO  </span>
+                        <p>    The CSP bypass in Piwik PRO involves the usage of AngularJS in a way that circumvents the
+                        intended security policies. By leveraging the framework's capabilities, attackers can execute
+                        malicious scripts, potentially compromising the integrity and confidentiality of user data.  </p><br><br>
+
+                        <span style="font-size: larger; color: rgb(208, 255, 0);">     Implications for Web Security  </span>
+                        <p>    1. CSP Limitations:
+                        This discovery highlights the limitations of CSP, particularly when certain third-party
+                        libraries or frameworks are used in a manner that is not aligned with the security policies in
+                        place.  </p><br><br>
+
+                        <p>   2. Framework Vigilance:
+                        Developers must exercise caution when implementing and configuring third-party frameworks,
+                        ensuring that their use complies with established security best practices.  </p><br><br>
+
+                        <p>  3. Continuous Security Audits:
+                        Regular security audits and vulnerability assessments are essential to identify and mitigate
+                        potential risks. In the ever-evolving landscape of web security, continuous vigilance is key.  </p><br><br>
+
+                        <p>  4. Framework Deprecation:
+                        Considering that AngularJS is no longer actively maintained by the Angular team, organizations
+                        should evaluate the risks associated with its usage and consider migrating to more modern and
+                        secure alternatives.  </p> <br><br>
+
+                        <span style="font-size: larger; color: rgb(208, 255, 0);">    Mitigating the Risks</span>
+                        <p>   1. Update AngularJS:
+                        If AngularJS is a critical component of your web application, ensure that you are using the
+                        latest version with any available security patches. Regularly monitor the official AngularJS
+                        repository for updates.  </p> <br><br>
+
+                        <p>   2. Implement Strict CSP Policies:
+                        Strengthen your CSP policies to minimize the risk of bypass attempts. Regularly review and
+                        update your policies to address emerging threats and vulnerabilities.   </p>
+
+                        <p>  3. Consider Migration:
+                        Evaluate the feasibility of migrating away from AngularJS to more modern JavaScript frameworks.
+                        This not only addresses security concerns but also ensures long-term sustainability and support.   </p><br><br>
+
+                        <p>   4. Engage in Responsible Disclosure:
+                        If you discover security vulnerabilities in widely used frameworks or libraries, follow
+                        responsible disclosure practices. Notify the relevant parties to ensure that appropriate steps
+                        are taken to address the issue.  </p> <br><br>
+
+                        <span style="font-size: larger; color: rgb(208, 255, 0);">   Conclusion</span>
+                        <p>   The unexpected CSP bypass in Piwik PRO serves as a stark reminder of the intricacies and
+                        challenges inherent in web security. As developers and security professionals, it is our
+                        responsibility to stay vigilant, adapt to evolving threats, and proactively address
+                        vulnerabilities in our applications. By embracing continuous security practices, remaining
+                        informed about the latest developments, and implementing mitigating measures, we can fortify our
+                        web applications against unforeseen ambushes and uphold the integrity of our users' data. Web
+                        security is a relentless journey, and every discovery is an opportunity to strengthen our
+                        defenses. </p><br><br>
+
+
+
+
+
+
+                        <br><br>
+
+
+                </h6>
+                </p>
+            </div>
+            <div class="col-2">
+                <p></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment | Raees
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> TechCrunch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Join</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="raw">
+            <div class="col-2">
+                <p></p>
+            </div>
+            <div class="col-8" id="text">
+                <h6> <br><br><br><br><br><br>
+                    <span style="font-size: larger; color: rgb(208, 255, 0);">
+                        Unveiling the Power of CSS Nesting:
+                        the Relaxed Syntax Update</span>
+                        <p>In the ever-evolving landscape of web development, staying abreast of the latest updates and
+                        features is key to crafting modern and efficient stylesheets. One such notable advancement is
+                        the CSS Nesting module, which introduces a more relaxed syntax to streamline your styling
+                        workflow. In this blog post, we'll delve into the world of CSS nesting, explore the recent
+                        relaxed syntax update, and understand how this enhancement can simplify your styling endeavors. </p>
+
+                        <span style="font-size: larger; color: rgb(208, 255, 0);">Understanding CSS Nesting </span>
+                    <p>CSS Nesting, part of the CSS Selectors Level 4 specification, brings a more intuitive and
+                        hierarchical structure to stylesheets. Traditionally, achieving nested styling required the use
+                        of more specific selectors or the duplication of parent selectors. With CSS Nesting, the process
+                        becomes more natural and mirrors the HTML structure.</p><br><br>
+
+                        <span style="font-size: larger; color: rgb(208, 255, 0);">Traditional CSS vs. CSS Nesting:</span>
+                      
+                        /* Traditional CSS */
+                        .container {
+                        background-color: #f0f0f0;
+                        } <br>
+
+                        .container h1 {
+                        color: #333;
+                        }<br>
+
+                        .container p {
+                        font-size: 16px;
+                        }<br>
+
+                        /* CSS Nesting */
+                        .container {
+                        background-color: #f0f0f0;<br>
+
+                        h1 {
+                        color: #333;
+                        }<br>
+
+                        p {
+                        font-size: 16px;
+                        }
+                        }
+                        CSS Nesting introduces a cleaner and more readable structure, aligning with the hierarchy of
+                        your HTML elements.</p><br><br><br><br>
+
+                        The Relaxed Syntax Update
+                        The relaxed syntax update takes CSS Nesting a step further, making it even more flexible and
+                        expressive. This update simplifies the syntax for nested selectors, allowing for a more relaxed
+                        and forgiving approach.</p><br>
+
+                        Example of Relaxed Syntax:
+                      
+                        /* Traditional CSS Nesting */<br>
+                        .container {<br>
+                        background-color: #f0f0f0;
+                        }<br>
+
+                        .container h1 {
+                        color: #333;
+                        }<br>
+
+                        .container p {
+                        font-size: 16px;
+                        }<br><br><br>
+
+                        /* Relaxed Syntax Update */
+                        .container {
+                        background-color: #f0f0f0;<br>
+
+                        h1 {
+                        color: #333;
+                        }<br>
+
+                        p {
+                        font-size: 16px;
+                        }
+                        }<br><br><br><br>
+                        The relaxed syntax maintains consistency with the original CSS Nesting proposal but offers a
+                        more forgiving structure, allowing developers to omit some parent selectors.</p><br>
+
+                        <p></p><span style="font-size: larger; color: rgb(208, 255, 0);">Benefits of Relaxed Syntax CSS Nesting</span>
+                        1. Simplified Code Structure:
+                        The relaxed syntax reduces the need for repeating parent selectors, resulting in more concise
+                        and readable code. This leads to a more intuitive representation of the HTML structure.</p><br>
+
+                        2. Enhanced Readability:
+                        Nested styles become more visually aligned with the HTML structure, making it easier to
+                        understand the relationships between parent and child elements.</p><br>
+
+                        3. Reduced Repetition:
+                        With the relaxed syntax, developers can omit parent selectors when defining styles for nested
+                        elements, reducing redundancy and improving maintainability.</p><br>
+
+                        4. Improved Developer Experience:
+                        The more forgiving syntax provides developers with a more comfortable and enjoyable coding
+                        experience, allowing for greater flexibility without sacrificing clarity.</p><br>
+
+                        <p> <span style="font-size: larger; color: rgb(208, 255, 0);"> Compatibility and Browser Support</span>
+                        As with any new feature or update, it's crucial to consider compatibility and browser support.
+                        While the relaxed syntax for CSS Nesting is gaining traction, it's advisable to check the
+                        current support status on platforms like MDN Web Docs or Can I use.</p><br>
+
+                        <p>Getting Started with Relaxed Syntax CSS Nesting
+                        To start using the relaxed syntax for CSS Nesting in your projects, ensure that your target
+                        browsers support this feature. Once confirmed, you can seamlessly integrate this update into
+                        your stylesheets, benefiting from a more relaxed and expressive syntax.</p><br>
+
+                        
+                        .container {
+                        background-color: #f0f0f0;<br>
+
+                        h1 {
+                        color: #333;
+                        }<br>
+
+                        p {
+                        font-size: 16px;
+                        }
+                        }<br>
+                        Embrace the power of CSS Nesting with its relaxed syntax update, and let it elevate your styling
+                        workflow to new heights. As the web development community continues to adopt and refine this
+                        feature, incorporating it into your projects will undoubtedly contribute to more efficient and
+                        maintainable stylesheets. Happy coding!<br>
+
+                </h6>
+                </p>
+            </div>
+            <div class="col-2">
+                <p></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

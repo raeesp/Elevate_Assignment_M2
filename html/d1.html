@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment | Raees
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"> TechCrunch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Join</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="raw">
+            <div class="col-2">
+                <p></p>
+            </div>
+            <div class="col-8" id="text">
+                <br><br><br><br><br><br> <h6> <span style="font-size: larger; color: rgb(208, 255, 0);">Mastering CSS Float: A Comprehensive
+                        Tutorial</span><br>
+                    Cascading Style Sheets (CSS) is a cornerstone of web development, and understanding its various
+                    properties is crucial for creating responsive and visually appealing layouts. One such property that
+                    has been widely used in the past for layout purposes is the float property. In this tutorial, we'll
+                    delve into the world of CSS float, exploring its functionality, use cases, and potential
+                    pitfalls.<br><br>
+
+                    <span style="font-size: larger; color: rgb(208, 255, 0);">What is CSS Float?,</span><br><br>
+                    
+                    
+                    The float property in CSS is used to push an element to the left or right, allowing content to flow
+                    around it. Originally designed for text wrapping around images, it gained popularity as a basic
+                    layout tool in the absence of more advanced layout options.<br><br>
+
+                    <span style="font-size: larger; color: rgb(208, 255, 0);"> Syntax: </span><br><br>
+                    
+                    Copy code
+                    .element {
+                    float: left | right | none | inherit;
+                    }
+                    left: The element floats to the left.
+                    right: The element floats to the right.
+                    none: The element does not float (default).
+                    inherit: The element inherits the float value from its parent.
+                    Basic Usage:
+                    Let's start with a simple example. Consider the following HTML structure:<br><br>
+
+                    html
+                    Copy code
+                    <div class="container">
+                        <div class="box float-left">Box 1</div>
+                        <div class="box float-right">Box 2</div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        </div>
+                    </div>
+                    And the corresponding CSS:<br><br>
+
+                    css
+                    Copy code
+                    .container {
+                    width: 80%;
+                    margin: 0 auto;
+                    }
+
+                    .box {
+                    width: 100px;
+                    height: 100px;
+                    margin: 10px;
+                    padding: 10px;
+                    border: 1px solid #333;
+                    }
+
+                    .float-left {
+                    float: left;
+                    }
+
+                    .float-right {
+                    float: right;
+                    }
+
+                    .content {
+                    clear: both;
+                    }
+                    In this example, Box 1 will float to the left, Box 2 will float to the right, and the .content div
+                    will be positioned below both boxes due to the clear: both property.<br><br>
+
+                    <span style="font-size: larger; color: rgb(208, 255, 0);">Use Cases:
+                        Creating Simple Grids:</span><br><br>
+                        
+                    The float property can be used to create basic grid systems. By floating elements left or right and
+                    setting widths, you can achieve a simple, responsive grid layout.<br><br>
+
+                    <span style="font-size: larger; color: rgb(208, 255, 0);">Text Wrapping Around Images:</span><br><br>
+                  
+                    As originally intended, float is excellent for positioning images within a block of text, allowing
+                    the text to wrap around the image.<br><br>
+
+                    <span style="font-size: larger; color: rgb(208, 255, 0);">Building Navigation Bars:</span><br><br>
+                    Floating menu items left or right is a common practice in building horizontal navigation bars. It
+                    enables items to align side by side.<br><br>
+
+                    <span style="font-size: larger; color: rgb(208, 255, 0);">Pitfalls and Considerations:
+                    Clearing Floats:</span><br><br>
+                    When using floats, it's crucial to clear them properly. This prevents unexpected layout issues. In
+                    the example above, the .content div uses clear: both to ensure it appears below both floated
+                    boxes.<br><br>
+
+                    <span style="font-size: larger; color: rgb(208, 255, 0);">Float Collapse:</span><br><br>
+                    Be aware of float collapse, where a container doesn't fully encompass its floated children. This can
+                    be mitigated by using the clearfix hack or employing newer layout techniques like Flexbox or
+                    Grid.<br><br>
+
+                    <span style="font-size: larger; color: rgb(208, 255, 0);">Responsive Design Challenges:</span><br><br>
+                    While float can be used for basic responsive design, it has limitations. Modern layout tools like
+                    Flexbox and Grid provide more powerful and flexible options for creating responsive designs.<br><br>
+
+                    <span style="font-size: larger; color: rgb(208, 255, 0);">Conclusion:</span><br><br>
+                    CSS float, despite being somewhat dated, remains a valuable tool for specific layout scenarios.
+                    Understanding its usage and limitations is essential for web developers, especially when dealing
+                    with legacy code or projects. However, for more complex layouts and responsive designs, consider
+                    exploring newer CSS layout modules such as Flexbox and Grid. As the web development landscape
+                    evolves, staying acquainted with a variety of layout options ensures you can choose the right tool
+                    for the job.<br><br>
+
+
+
+
+
+
+
+
+                </h6>
+                </p>
+            </div>
+            <div class="col-2">
+                <p></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

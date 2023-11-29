@@ -1,0 +1,104 @@
+.cardtop {
+    padding-left: 51px;
+    padding-right: 51px;
+    padding-top: 40px;
+}
+
+
+#recentpost {
+    padding-top: 28px;
+    padding-left: 64px;
+    padding-bottom: 28px;
+}
+
+#postraw1 {
+    padding-left: 51px;
+    padding-right: 51px;
+    padding-top: 40px;
+    padding-top: 0px;
+    padding-bottom: 28px;
+}
+
+body {
+    background-color: #313357;
+  }
+
+  #bgclr {
+    background-color: #698fb2;
+    border-color: #313357;
+  }
+  #cdfont {
+    color: #ffffff;
+  }
+
+  #recentpost{
+    color: #00fffb;
+  }
+
+  #ucard {
+    background-color: #bdcbcf;
+    border-color: #313357;
+    
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+  #ucard a:hover
+{
+    color: #222e50;
+    text-decoration: underline;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #imagecover {
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 50px
+    height: 1000px
+  }
+  span {
+    text-decoration-color: #313357;
+    
+  }
+
+  *{
+    font-family: 'Montserrat';
+  }
+  #text {
+    text-align: left;
+  }
+
+
+#text {
+    padding-left: 150px;
+  
+}
+#bgclr a:hover
+{
+   color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+
+#footer22 {
+  color: #313357;
+}
