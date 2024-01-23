@@ -1,0 +1,98 @@
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee7724,
+    #d8363a,
+    #dd3675,
+    #b44593
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    90deg,
+    rgba(34, 46, 80, 1) 0%,
+    rgba(0, 188, 212, 1) 100%,
+    rgba(34, 46, 80, 1) 100%
+  );
+
+  border-radius: 100px 30px 30px 100px;
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+
+
+
+.form-control{
+  border: 0cm;
+  margin: 0%;
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 9px;  }
+
+ .buttonsignup{
+  display:block;
+margin:0 auto;
+height: 43px;
+width: 160px;
+margin-bottom: 20px;
+
+  
+   
+  }
+
+  .newsletter{
+    margin-bottom: 0%;
+  }
+  
+  #myCheckbox {
+    /* setting the checkbox input HTML element accent color to `green` */
+ 
+
+  .form-check-input  {
+
+  accent-color:rgba(0, 188, 212, 1) 100%,;}
+
+  body
+
+  body {
+    font-family: 'Montserrat';font-size: 22px;
+}
+
+#footer22{
+  font-family: 'Montserrat Light', arial;
+}
+
+.signupbtn {
+  
+}
+
+
+.subscibe{
+  width: 3px;
+  height: 23px;
+}
+
+
+.totalspace {
+  min-height: 100vh; /* Set a minimum height */
+  overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+}
+
+.container-content {
+  max-height: 500px; /* Set a fixed maximum height for the content */
+  overflow-y: auto;  /* Add a vertical scrollbar if content exceeds the height */
+}
